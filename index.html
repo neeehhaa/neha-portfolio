@@ -23,7 +23,6 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 15px 40px;
-  z-index: 1000;
 }
 
 nav a {
@@ -67,22 +66,8 @@ h2 {
   padding-bottom: 10px;
 }
 
-/* BUTTON */
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #38bdf8;
-  color: black;
-  border-radius: 8px;
-  text-decoration: none;
-  margin-top: 10px;
-}
-
-/* IMAGE */
-img {
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 10px;
+ul {
+  line-height: 1.8;
 }
 </style>
 </head>
@@ -99,6 +84,7 @@ img {
   </div>
 </nav>
 
+<!-- HEADER -->
 <header>
   <h1>Neha K</h1>
   <p>AI & ML Student | Python Developer</p>
@@ -106,13 +92,17 @@ img {
 
 <section>
 
+  <!-- ABOUT -->
   <div class="card" id="about">
     <h2>About Me</h2>
     <p>
-      Aspiring BCA student specializing in AI & ML with strong skills in Python and Machine Learning.
+      Aspiring BCA student specializing in Artificial Intelligence and Machine Learning.
+      Strong foundation in Python, Data Structures, and Machine Learning algorithms.
+      Passionate about building real-world AI solutions.
     </p>
   </div>
 
+  <!-- SKILLS -->
   <div class="card">
     <h2>Skills</h2>
     <ul>
@@ -120,23 +110,40 @@ img {
       <li>Machine Learning</li>
       <li>Data Structures</li>
       <li>Problem Solving</li>
+      <li>Communication Skills</li>
     </ul>
   </div>
 
+  <!-- PROJECT -->
   <div class="card" id="projects">
-    <h2>Project</h2>
-    <p><b>Fake News Detection</b></p>
-    <p>ML model using TF-IDF + Logistic Regression</p>
+    <h2>Projects</h2>
 
-    <!-- ADD YOUR IMAGE HERE -->
-    <img src="project.png" alt="Project Screenshot">
+    <p><b>Fake News Detection using Machine Learning</b></p>
+    <p>
+      Developed a machine learning model using TF-IDF and Logistic Regression 
+      to classify news articles as real or fake.
+    </p>
   </div>
 
+  <!-- INTERNSHIPS -->
   <div class="card">
-    <h2>Resume</h2>
-    <a href="resume.pdf" download class="btn">Download Resume</a>
+    <h2>Internships</h2>
+    <ul>
+      <li>Machine Learning Intern – Gradtwin (3 months)</li>
+      <li>Telecom Training – BSNL (Dec 2024)</li>
+    </ul>
   </div>
 
+  <!-- EDUCATION -->
+  <div class="card">
+    <h2>Education</h2>
+    <ul>
+      <li>BCA (AI & ML) – St. Peter’s Institute (Ongoing)</li>
+      <li>12th – Vidya Jyothi PU College (2023)</li>
+    </ul>
+  </div>
+
+  <!-- CONTACT -->
   <div class="card" id="contact">
     <h2>Contact</h2>
     <p>Email: kimneha67@gmail.com</p>
